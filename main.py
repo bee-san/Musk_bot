@@ -4,10 +4,10 @@ from markovbot import MarkovBot
 
 with open("tokens.txt", "r") as f:
     f_read = f.readline()
-    access_token = "952160751157960704-ek5scwczzdQKgO9MRrDZbAAQV4L3ZAv" # f_read.split(" ")[2][0:-1]
-    access_token_secret = "o3cygwweV3uXvY3MIg1aNGq761gCcX6yUWY4hIZkPvU0h"
-    cons_key = "36wM5DmrtL3Rb0kqbZ3DJkcYD"
-    cons_secret = "a3udTGncmjkf08xH8NnVGQni6CNzp3WpU8yjHuOtFeUcxonpyg"
+    access_token = "" # f_read.split(" ")[2][0:-1]
+    access_token_secret = ""
+    cons_key = ""
+    cons_secret = ""
 
 # Initialise a MarkovBot instance
 tweetbot = MarkovBot()
